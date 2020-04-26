@@ -93,12 +93,13 @@ show_objs(X_bw, Regions_corrected);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %% Task 3
+% Average pea
 
 ValidPeaIndices = [Regions.Area] > (m_area - std_area);
 
 
 
-
+X_fft = fftshift(fft(X));
 
 
 
